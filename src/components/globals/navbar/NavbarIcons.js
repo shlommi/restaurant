@@ -7,7 +7,7 @@ export default class NavbarIcons extends Component {
   state = {
     icons: [
       {
-        id: 1,
+        id: 0,
         icon: <FaFacebook className="icon facebook-icon" />,
         path: "https://www.facebook.com"
       },
@@ -17,7 +17,7 @@ export default class NavbarIcons extends Component {
         path: "https://www.twitter.com"
       },
       {
-        id: 1,
+        id: 2,
         icon: <FaInstagram className="icon instagram-icon" />,
         path: "https://www.instagram.com"
       }

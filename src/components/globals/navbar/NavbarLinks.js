@@ -35,7 +35,7 @@ export default class NavbarLinks extends Component {
       <LinkWrapper open={this.props.navbarOpen}>
         {links.map(item => {
           return (
-            <li ket={item.id}>
+            <li key={item.id}>
               <Link to={item.path} className="nav-link">
                 {item.name}
               </Link>

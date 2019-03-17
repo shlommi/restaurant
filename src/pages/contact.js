@@ -2,11 +2,14 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-
+import { PageHeader, Banner } from "../utils";
+import contactImg from "../images/bcg/contactBcg.jpeg";
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>this is Contact Page</h3>
+    <PageHeader img={contactImg}>
+      <Banner title="צור קשר" subtitle="!זמינים עבורכם תמיד" />
+    </PageHeader>
   </Layout>
 );
 

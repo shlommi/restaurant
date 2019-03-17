@@ -20,6 +20,8 @@ const Layout = ({ children }) => {
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=hebrew');;
+
 
   * {
     margin: 0;
